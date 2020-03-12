@@ -23,14 +23,17 @@ public class Tarefa implements Serializable {
 
     private Boolean concluido;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name= "data_criacao")
     private Date dataCriacao;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name= "data_atualizacao")
     private Date dataAtualizacao;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name= "data_exclusao")
     private Date dataExclusao;
