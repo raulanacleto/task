@@ -1,5 +1,5 @@
 ## Passos para subir a aplicação
-1 - Criar database 'tarefas' no banco de dados postgres
+1 - Criar database 'tarefa' no banco de dados postgres
 
 
 2 - Iniciar a aplicação
